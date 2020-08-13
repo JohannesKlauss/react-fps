@@ -142,6 +142,9 @@ And then you can build the UI visualization of your dreams.
 
 ## Roadmap
 [ ] - Implement a hook version that updates itself every frame.
+[ ] - Add milliseconds to render a frame stat
+[ ] - Add memory consumption
+[ ] - Add a customization hook and component.
 
 ## Contributing
 Contributions are what make the open source community such an amazing place to be learn, inspire, and create. Any contributions you make are **greatly appreciated**.
@@ -163,5 +166,5 @@ Project Link: [https://github.com/JohannesKlauss/react-fps](https://github.com/J
 
 ## Prior Art
 Basis of this package is the [react-fps-stats](https://github.com/tibotiber/react-fps-stats)  
-package which itself is a fork of [react-stats](https://github.com/sebslomski/react-stats).
+Both are react ports of [stats.js](https://github.com/mrdoob/stats.js).
 I ported it to use hooks, added a nicer color layout and made it more customizable.
