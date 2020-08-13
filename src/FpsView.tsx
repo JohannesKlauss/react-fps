@@ -12,13 +12,13 @@ interface ComponentProps {
 }
 
 const FpsView: React.FC<ComponentProps> = ({top = 0, left = 0, bottom = 'auto', right = 'auto', width = 140, height = 60}) => {
-  const {fps, avgFps, maxFps} = useFps(width);
+  const {fps, avgFps, maxFps, currentFps} = useFps(Math.floor(width / 2));
   const {graphStyle, barStyle, wrapperStyle} = useStyles(width, height, top, right, bottom, left, fps.length);
 
   return (
     // @ts-ignore
     <div style={wrapperStyle}>
-      <span>{fps[fps.length - 1]} FPS ({avgFps} Avg)</span>
+      <span>{currentFps} FPS ({avgFps} Avg)</span>
       {/* @ts-ignore */}
       <div style={graphStyle}>
         {fps.map((val, i) => (

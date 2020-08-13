@@ -36,9 +36,9 @@ export default function useStyles(width: number, height: number, top: CssProp, r
   const barStyle = useCallback((calcHeight, i) => ({
     position: 'absolute',
     bottom: '0',
-    right: fpsLength - 1 - i + 'px',
+    right: ((fpsLength - 1 - i) * 4) + 'px',
     height: calcHeight + 'px',
-    width: '1px',
+    width: '4px',
     backgroundColor: '#E200F7',
     MozBoxSizing: 'border-box',
     boxSizing: 'border-box'

@@ -20,7 +20,7 @@ export default function useFps(windowWidth: number) {
       lastFpsValues.current = lastFpsValues.current.concat(currentFps);
 
       if (elapsedTime > 1500) {
-        for (let i = 1; i <= elapsedTime / 1000; i++) {
+        for (let i = 1; i <= (elapsedTime - 1000) / 1000; i++) {
           lastFpsValues.current = lastFpsValues.current.concat(0);
         }
       }
@@ -46,6 +46,7 @@ export default function useFps(windowWidth: number) {
 
   const avgFps = (fps.reduce((a,b) => a + b, 0) / fps.length).toFixed(2);
   const maxFps = Math.max.apply(Math.max, fps);
+  const currentFps = fps[fps.length - 1];
 
-  return {fps, avgFps, maxFps};
+  return {fps, avgFps, maxFps, currentFps};
 }
