@@ -18,6 +18,7 @@
 * [About the Project](#about-the-project)
 * [Getting Started](#getting-started)
   * [Installation](#installation)
+  * [TypeScript](#typescript)
 * [Usage](#usage)
   * [Component](#component)
   * [Props](#props)
@@ -46,6 +47,10 @@ yarn add react-fps
 ```shell script
 npm i react-fps
 ```
+
+### TypeScript
+
+This package is built with TypeScript and supports it out of the box.
 
 ## Usage
 
