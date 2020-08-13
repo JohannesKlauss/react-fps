@@ -141,10 +141,10 @@ function YourComponent() {
 And then you can build the UI visualization of your dreams.
 
 ## Roadmap
-[ ] - Implement a hook version that updates itself every frame.
-[ ] - Add milliseconds to render a frame stat
-[ ] - Add memory consumption
-[ ] - Add a customization hook and component.
+- [ ] Implement a hook version that updates itself every frame.
+- [ ] Add milliseconds to render a frame stat
+- [ ] Add memory consumption
+- [ ] Add a customization hook and component.
 
 ## Contributing
 Contributions are what make the open source community such an amazing place to be learn, inspire, and create. Any contributions you make are **greatly appreciated**.
