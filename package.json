@@ -1,6 +1,6 @@
 {
   "name": "react-fps",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "main": "./build/index.js",
   "module": "./build/index.es.js",
   "repository": "https://JohannesKlauss@github.com/JohannesKlauss/react-fps.git",
@@ -12,10 +12,14 @@
     "component",
     "fps",
     "performance",
+    "analyzer",
     "stats"
   ],
   "license": "MIT",
-  "dependencies": {},
+  "dependencies": {
+    "rollup": "2.23.1",
+    "rollup-plugin-terser": "7.0.0"
+  },
   "peerDependencies": {
     "react": "16.13.1",
     "react-dom": "16.13.1"

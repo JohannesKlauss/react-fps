@@ -1,8 +1,7 @@
-[![Contributors][contributors-shield]][contributors-url]
-[![Forks][forks-shield]][forks-url]
-[![Stargazers][stars-shield]][stars-url]
-[![Issues][issues-shield]][issues-url]
-[![MIT License][license-shield]][license-url]
+[![GitHub contributors](https://img.shields.io/github/contributors/Naereen/StrapDown.js.svg)](https://GitHub.com/JohannesKlauss/react-fps/graphs/contributors/)
+[![GitHub issues](https://img.shields.io/github/issues/Naereen/StrapDown.js.svg)](https://GitHub.com/JohannesKlauss/react-fps/issues/)
+[![GitHub license](https://img.shields.io/github/license/Naereen/StrapDown.js.svg)](https://github.com/JohannesKlauss/react-fps/blob/master/LICENSE)
+
 
 <br />
 <p align="center">
@@ -166,8 +165,3 @@ Project Link: [https://github.com/JohannesKlauss/react-fps](https://github.com/J
 Basis of this package is the [react-fps-stats](https://github.com/tibotiber/react-fps-stats)  
 package which itself is a fork of [react-stats](https://github.com/sebslomski/react-stats).
 I ported it to use hooks, added a nicer color layout and made it more customizable.
-
-## Found an issue or want a feature?
-Just open up an issue
-
-## A
