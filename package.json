@@ -1,9 +1,19 @@
 {
-  "name": "component-library-starter",
+  "name": "react-fps",
   "version": "1.0.0",
   "main": "./build/index.js",
   "module": "./build/index.es.js",
-  "author": "Dennis Schneider",
+  "repository": "https://JohannesKlauss@github.com/JohannesKlauss/react-fps.git",
+  "author": "Johannes Klauss",
+  "keywords": [
+    "react",
+    "hook",
+    "hooks",
+    "component",
+    "fps",
+    "performance",
+    "stats"
+  ],
   "license": "MIT",
   "dependencies": {},
   "peerDependencies": {
