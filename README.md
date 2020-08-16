@@ -10,6 +10,16 @@
   </a>
 
   <h3 align="center">react-fps</h3>
+  <p align="center">
+    A fresh and modern FPS component for react.
+    <br />
+    <br />
+    <a href="https://codesandbox.io/s/react-fps-demo-wturm">View Demo</a>
+    ·
+    <a href="https://github.com/JohannesKlauss/react-fps/issues">Report Bug</a>
+    ·
+    <a href="https://github.com/JohannesKlauss/react-fps/issues">Request Feature</a>
+  </p>
 </p>
 
 ## Table of Contents
