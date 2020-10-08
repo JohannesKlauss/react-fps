@@ -54,7 +54,7 @@
     "build-storybook": "build-storybook",
     "build": "rollup -c",
     "lint": "eslint 'src/**/*.{js,ts,tsx}' --quiet --fix",
-    "test": "jest",
+    "test": "jest --passWithNoTests",
     "publish": "np"
   }
 }
