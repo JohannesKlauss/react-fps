@@ -25,7 +25,7 @@ export default function useFps(windowWidth: number) {
         }
       }
 
-      lastFpsValues.current = lastFpsValues.current.slice(Math.min(lastFpsValues.current.length - windowWidth, 0));
+      lastFpsValues.current = lastFpsValues.current.slice(Math.max(lastFpsValues.current.length - windowWidth, 0));
 
       setFps(lastFpsValues.current);
 
