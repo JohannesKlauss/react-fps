@@ -55,6 +55,6 @@
     "build": "rollup -c",
     "lint": "eslint 'src/**/*.{js,ts,tsx}' --quiet --fix",
     "test": "jest",
-    "pusblish": "np"
+    "publish": "np"
   }
 }
