@@ -21,7 +21,7 @@
     "react-dom": "16.14.0"
   },
   "devDependencies": {
-    "@babel/core": "7.12.1",
+    "@babel/core": "7.12.3",
     "@rollup/plugin-commonjs": "15.1.0",
     "@rollup/plugin-node-resolve": "9.0.0",
     "@storybook/addon-actions": "6.0.26",
