@@ -43,7 +43,7 @@
     "prettier": "2.1.2",
     "react-is": "16.13.1",
     "rollup": "2.32.0",
-    "rollup-plugin-peer-deps-external": "2.2.3",
+    "rollup-plugin-peer-deps-external": "2.2.4",
     "rollup-plugin-terser": "7.0.2",
     "rollup-plugin-typescript2": "0.28.0",
     "ts-loader": "8.0.6",
