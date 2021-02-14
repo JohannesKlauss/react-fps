@@ -23,7 +23,7 @@
   "devDependencies": {
     "@babel/core": "7.12.16",
     "@rollup/plugin-commonjs": "17.1.0",
-    "@rollup/plugin-node-resolve": "11.1.1",
+    "@rollup/plugin-node-resolve": "11.2.0",
     "@storybook/addon-actions": "6.1.17",
     "@storybook/addon-essentials": "6.1.17",
     "@storybook/addon-knobs": "6.1.17",
