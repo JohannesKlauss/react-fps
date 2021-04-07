@@ -26,7 +26,7 @@
     "@rollup/plugin-node-resolve": "11.2.1",
     "@storybook/addon-actions": "6.2.4",
     "@storybook/addon-essentials": "6.2.4",
-    "@storybook/addon-knobs": "6.2.4",
+    "@storybook/addon-knobs": "6.2.5",
     "@storybook/addon-links": "6.2.4",
     "@storybook/addons": "6.2.4",
     "@storybook/preset-typescript": "3.0.0",
