@@ -39,7 +39,7 @@
     "eslint-plugin-prettier": "3.4.0",
     "eslint-plugin-react": "7.23.2",
     "fork-ts-checker-webpack-plugin": "6.2.10",
-    "jest": "27.0.2",
+    "jest": "27.0.3",
     "prettier": "2.3.0",
     "react-is": "17.0.2",
     "rollup": "2.50.4",
