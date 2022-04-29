@@ -33,7 +33,7 @@
     "@storybook/react": "6.4.21",
     "@typescript-eslint/eslint-plugin": "5.21.0",
     "@typescript-eslint/parser": "5.21.0",
-    "babel-loader": "8.2.4",
+    "babel-loader": "8.2.5",
     "eslint": "8.14.0",
     "eslint-config-prettier": "8.5.0",
     "eslint-plugin-prettier": "4.0.0",
