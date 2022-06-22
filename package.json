@@ -41,7 +41,7 @@
     "fork-ts-checker-webpack-plugin": "7.2.11",
     "jest": "28.1.1",
     "prettier": "2.7.1",
-    "react-is": "18.1.0",
+    "react-is": "18.2.0",
     "rollup": "2.75.7",
     "rollup-plugin-peer-deps-external": "2.2.4",
     "rollup-plugin-terser": "7.0.2",
